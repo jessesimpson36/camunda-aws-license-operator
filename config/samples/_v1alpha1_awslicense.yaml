@@ -1,0 +1,12 @@
+apiVersion: camunda.io/v1alpha1
+kind: AWSLicense
+metadata:
+  labels:
+    app.kubernetes.io/name: awslicense
+    app.kubernetes.io/instance: awslicense-sample
+    app.kubernetes.io/part-of: camunda-aws-license-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: camunda-aws-license-operator
+  name: awslicense-sample
+spec:
+  # TODO(user): Add fields here

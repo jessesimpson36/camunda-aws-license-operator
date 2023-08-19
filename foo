@@ -1,0 +1,7 @@
+apiVersion: camunda.io/v1alpha1
+kind: AWSLicense
+metadata:
+  name: license1
+  namespace: default
+spec:
+  foo: "bar"
